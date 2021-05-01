@@ -1,0 +1,29 @@
+sudo apt update
+
+sudo apt install openjdk-8-jdk or sudo apt install default-jdk
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+java -version
+
+sudo apt update
+
+sudo apt install maven
+
+mvn -version
+
+mvn validate
+mvn compile
+mvn test
+mvn package
+mvn verify
+mvn install
+mvn site
+mvn clean
+
+https://maven.apache.org/guides/getting-started/
+
+
+
+sudo apt-get install tree
+
